@@ -1,0 +1,21 @@
+body{background: #26547C;}
+.Container{ width: 95%; margin: 2.5%; text-align: center;}
+.Help{background: #06D6A0; font-size: 3rem; opacity: 0; animation: opacity; transition-duration: 1s;}
+.Container__ToDo{display: flex;}
+.Form{width: 45%; margin: 0 2.5%; background: #FFD166; padding: 40px; text-align: center; border-radius: 10px; display: flex; flex-direction: column;}
+.List{width: 45%; margin: 0 2.5%;}
+.Error{text-align: left; color: #EF476F;}
+input{margin: 20px; font-size: 1.7rem; text-align: center; border-radius: 5px; border: none;}
+button{margin: 20px 30%; background: #EF476F; font-size: 2rem; font-weight: bold; border-radius: 5px; border:none;}
+.Todo{background: #06D6A0; font-size: 1.7rem; border-radius: 5px; padding: 20px; list-style: none; margin: 10px 0;}
+.Done{background: #EF476F; font-size: 1.7rem; border-radius: 5px; padding: 20px; list-style: none; margin: 10px 0;}
+.Help__Open{opacity: 1;}
+
+
+@media only screen and (max-width: 642px) {
+.Container__ToDo{flex-direction: column;}
+.Container h1{font-size: 1rem;}
+.Form{width: 95%; padding: 0;}
+.List{width: 95%;}
+
+}

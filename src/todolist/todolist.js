@@ -58,7 +58,6 @@ class ToDoList extends Component {
   }
 
 
-
   addToDo = (e)=>{
     if(this.state.nome !== "" && this.state.data!==""){
 
@@ -85,7 +84,7 @@ class ToDoList extends Component {
   render() {
     return (
       <div className="Container">
-                <h1 className={this.state.class + " Help"}>Double click to check the "to do"</h1>
+                <h1 className={this.state.class + " Help"}>Double click/tap to check the "to do"</h1>
                 <div className="Container__ToDo">
                       <div className="Form">
 
